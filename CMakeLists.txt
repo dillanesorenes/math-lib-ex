@@ -38,6 +38,6 @@ install(
 		
 install(TARGETS math-lib-ex EXPORT math-lib-ex-targets)
 install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
-install(EXPORT math-lib-ex
-	NAMESPACE math-lib-ex::
-	DESTINATION ${CMAKE_INSTALL_DATADIR}/math-lib-ex)
+install(EXPORT math-lib
+	NAMESPACE math-lib::
+	DESTINATION ${CMAKE_INSTALL_DATADIR}/math-lib)
