@@ -8,4 +8,4 @@ project(math-lib-ex
 	HOMEPAGE_URL "https://github.com/dillanesorenes/math-lib-ex"
 	LANGUAGES CXX)
 
-add_library(math-lib src/math.cpp include/math.h)
+add_library(math-lib-ex src/math.cpp include/math.h)
