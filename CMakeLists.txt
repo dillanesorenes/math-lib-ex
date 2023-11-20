@@ -11,8 +11,6 @@ project(math-lib-ex
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
-find_package(beicode CONFIG REQUIRED)
-
 add_library(math-lib src/math-lib.cpp include/math-lib.h)
 add_library(math-lib::math-lib ALIAS math-lib)
 
