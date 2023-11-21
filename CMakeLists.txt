@@ -7,7 +7,7 @@ project(math-lib-ex VERSION ${math-lib_VERSION} DESCRIPTION "A simple math lib e
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
 
-add_library(math-lib-ex src/math.cpp include/math.h)
+add_library(math-lib-ex src/CustomMath.cpp include/CustomMath.h)
 add_library(math-lib-ex::math-lib-ex ALIAS math-lib-ex)
 
 target_compile_features(math-lib-ex PUBLIC cxx_std_17)
