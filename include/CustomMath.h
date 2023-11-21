@@ -1,10 +1,10 @@
 #pragma once
 
 
-class Math {
+class CustomMath {
 public:
-	Math();
-	~Math();
+	CustomMath();
+	~CustomMath();
 	int sumar(const int& x, const int& y);
 };
 
