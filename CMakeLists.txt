@@ -16,8 +16,8 @@ add_library(math-lib-ex::math-lib-ex ALIAS math-lib-ex)
 
 if(BUILD_SHARED_LIBS AND WIN32)
 	target_compile_definitions(math-lib-ex
-			PRIVATE "MATH-LIB-EX_EXPORT=__declspec(dllexport)"
-			INTERFACE "MATH-LIB-EX_EXPORT=__declspec(dllimport)")
+			PRIVATE "MATH_LIB_EX_EXPORT=__declspec(dllexport)"
+			INTERFACE "MATH_LIB_EX_EXPORT=__declspec(dllimport)")
 endif()
 
 target_compile_features(math-lib-ex PUBLIC cxx_std_17)

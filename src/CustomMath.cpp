@@ -1,13 +1,16 @@
 #include "CustomMath.h"
 
-CustomMath::CustomMath()
-{
-}
+namespace math_lib_ex{
 
-CustomMath::~CustomMath()
-{
-}
+	CustomMath::CustomMath()
+	{
+	}
 
-int CustomMath::sumar(const int& x, const int& y) {
-	return x + y;
+	CustomMath::~CustomMath()
+	{
+	}
+
+	int CustomMath::sumar(const int& x, const int& y) {
+		return x + y;
+	}
 }
