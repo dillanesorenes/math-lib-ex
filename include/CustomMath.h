@@ -12,7 +12,7 @@ class MATH_LIB_EX_EXPORT CustomMath {
 public:
 	CustomMath();
 	~CustomMath();
-	int sumar(const int& x, const int& y);
+	virtual int sumar(const int& x, const int& y);
 };
 
 
